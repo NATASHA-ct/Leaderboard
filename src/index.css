@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+html {
+  width: 100%;
+  box-sizing: border-box;
+  color: #101010;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #272a31;
+  --grey: #d3d3d3;
+  --white: #fff;
+  --darkgrey: rgb(96, 92, 92);
+  --text: grey;
+}
+
+header {
+  margin: 2em;
+  margin-left: 1em;
+}
+
+main {
+  margin-left: 4em;
+  display: flex;
+  gap: 4em;
+  width: 80%;
+}
+
+.recentScores {
+  width: 50%;
+}
+
+.scoreHeading {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.hRecent {
+  width: 80%;
+}
+
+.refresh {
+  padding: 3px 7px;
+  border: 0.2px solid var(--black);
+  border-right: 3px solid var(--black);
+  border-bottom: 3px solid var(--black);
+}
+
+ul {
+  border: 2px solid var(--black);
+  border-radius: 4px;
+}
+
+ul li {
+  list-style: none;
+  border: 1px;
+  border-style: inset;
+  padding: 0.2em;
+  padding-left: 1em;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* right side */
+
+.addScore {
+  margin-right: 2em;
+  width: 25%;
+}
+
+.hAdd {
+  margin-bottom: 0.6em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input {
+  padding: 5px 7px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid var(--black);
+  width: 100%;
+  border-radius: 4px;
+}
+
+input:last-child {
+  padding: 5px 7px;
+  border: 0.2px solid var(--black);
+  border-right: 3px solid var(--black);
+  border-bottom: 3px solid var(--black);
+  border-radius: 0%;
+  width: 40%;
+}
