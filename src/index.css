@@ -9,6 +9,7 @@ html {
 
 body {
   width: 100%;
+  background-color: var(--grey);
 }
 
 *,
@@ -28,8 +29,8 @@ body {
 }
 
 header {
-  margin: 2em;
-  margin-left: 1em;
+  margin: 4em;
+  margin-left: 2em;
 }
 
 main {
@@ -106,5 +107,17 @@ input:last-child {
   border-right: 3px solid var(--black);
   border-bottom: 3px solid var(--black);
   border-radius: 0%;
-  width: 40%;
+  width: 80px;
+}
+
+.playerDetails {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  font-weight: 700;
+  text-align: left;
+  gap: 6px;
+}
+
+.playerName::first-letter {
+  text-transform: uppercase;
 }
