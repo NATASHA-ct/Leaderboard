@@ -16,26 +16,17 @@
 
 [Live Demo Link](https://natasha-ct.github.io/Leaderboard/dist/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
--Github flow knowledge.
--Basic CSS and HTML.
--Installation of files.
-
 ### Setup
 - To clone the repository run `[https://github.com/NATASHA-ct/Leaderboard.git]` in your terminal
 - run cd Leaderboard
 - run npm install
 - run npm run build
 - run npm start to view wbsite
+
+### Prerequisites
+-Github flow knowledge.
+-Basic CSS and HTML.
+-Installation of files.
 
 ### Install
 - Set up Github Actions
