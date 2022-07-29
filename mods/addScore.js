@@ -6,7 +6,9 @@ const newScore = (user, score) => {
   const player = document.createElement('li');
   player.innerHTML = `
                     <div class="playerDetails">
-                     <p class="playerName">${user}:</p>
+                     <p class="playerName">
+                     ${user}:
+                     </p>
                      <p class="playerScore">${score}</p>
                     </div>
                    `;
