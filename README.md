@@ -31,16 +31,16 @@ To get a local copy up and running follow these simple example steps.
 -Installation of files.
 
 ### Setup
--To clone the repository run `[https://github.com/NATASHA-ct/Leaderboard.git]` in your terminal
--run cd Leaderboard
--run npm install
--run npm run build
--run npm start to view wbsite
+- To clone the repository run `[https://github.com/NATASHA-ct/Leaderboard.git]` in your terminal
+- run cd Leaderboard
+- run npm install
+- run npm run build
+- run npm start to view wbsite
 
 ### Install
--Set up Github Actions
--Set up linter > Lighthouse , Webhint ,Stylelint ,
--Added Eslint
+- Set up Github Actions
+- Set up linter > Lighthouse , Webhint ,Stylelint ,
+- Added Eslint
 
 
 ## Authors
