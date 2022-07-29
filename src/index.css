@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  position:absolute;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   width: 100%;
   background-color: rgb(16 204 203);
   background-image: url(../images/backgroundimg.jpg);
@@ -45,7 +45,7 @@ header {
 main {
   margin-left: 4em;
   display: flex;
-  gap: 4em;
+  gap: 10em;
   width: 90%;
 }
 
@@ -72,8 +72,8 @@ main {
 }
 
 ul {
-    border-radius: 4px;
-    background-color: hsl(240deg 83% 66% / 15%);
+  border-radius: 4px;
+  background-color: hsl(240deg 83% 66% / 15%);
 }
 
 ul li {
@@ -136,10 +136,10 @@ input:last-child {
   text-transform: uppercase;
 }
 
-footer{
-  position:fixed;
-  bottom:0;
-  background-color:rgba(221, 108, 37, 0.929);
-  width:100%;
-  padding:1em;
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(221, 108, 37, 0.929);
+  width: 100%;
+  padding: 1em;
 }
